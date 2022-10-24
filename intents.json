@@ -1,0 +1,146 @@
+{"intents": [
+    {
+        "tag": "create_note",
+        "patterns": ["Please create a new note", "Create a note"],
+        "responses": [""]
+    },
+    {
+        "tag": "add_todo",
+        "patterns": ["I want to add a todo", "add a new todo"],
+        "responses": [""]
+    },
+    {
+        "tag": "show_todos",
+        "patterns": ["Show my todos", "What are my todos", "show my to do" ,"show my to do list"],
+        "responses": [""]
+    },
+    {
+        "tag": "find_face",
+        "patterns": ["who's this person", "who's this guy", "search about this men", "search about this person", "search about this guy"],
+        "responses": [""]
+    },
+    {
+        "tag": "ss_face",
+        "patterns": ["Screenshoot face", "Screenshoot this face", "Foto this guy", "save foto this person" ],
+        "responses": [""]
+    },
+    {
+        "tag": "restart",
+        "patterns": ["restart system"],
+        "responses": [""]
+    },
+    {
+        "tag": "exit",
+        "patterns": ["stop service", "stop program"],
+        "responses": [""]
+    },
+    {
+        "tag": "restart_script",
+        "patterns": ["restart service", "restart program"],
+        "responses": [""]
+    },
+    {
+        "tag": "pc_shutdown",
+        "patterns": ["Turn off my PC", "Shutdown my pc", "shutdown my laptop", "turn off my laptop"],
+        "responses": [""]
+    },
+    {
+        "tag": "pc_restart",
+        "patterns": ["Restart my PC", "restart my laptop"],
+        "responses": [""]
+    },
+    {
+        "tag": "ask_openai",
+        "patterns": ["Connect to open AI", "ask open AI", "connect to AI server"],
+        "responses": [""]
+    },
+
+
+
+
+
+    {
+        "tag": "search_youtube",
+        "patterns": ["Search on youtube", "Search video"],
+        "responses":["search:youtube"]
+    },
+    {
+        "tag": "search_google",
+        "patterns": ["Search on google", "Search google"],
+        "responses":["search:google"]
+    },
+    {
+        "tag": "search_google_image",
+        "patterns": ["Search image", "Search image on google"],
+        "responses":["search:google_image"]
+    },
+    {
+        "tag": "search_google_image_show_random",
+        "patterns": ["Show me image", "Search image for me", "Search image for me", "show me a picture", "Show image", "show picture"],
+        "responses":["search:google_image_show_random"]
+    },
+    {
+        "tag": "search_netflix",
+        "patterns": ["Search on netflix", "Search netflix"],
+        "responses":["search:netflix"]
+    },
+    {
+        "tag": "search_hotstar",
+        "patterns": ["Search on hotstar", "Search hotstar", "search on disney", "search disney", "search on disney hotstar", "search disney hotstar"],
+        "responses":["search:hotstar"]
+    },
+    {
+        "tag": "train_model",
+        "patterns": ["train model", "train new model", "learn new model", "learn", "do learn", "starting to learn"],
+        "responses": ["Ok, finish to learn new model"]
+    },
+    {
+        "tag": "open_notepad",
+        "patterns": ["open notepad"],
+        "responses": ["open:notepad"]
+    },
+    {
+        "tag": "open_calculator",
+        "patterns": ["open calculator", "open kalkulator"],
+        "responses": ["open:calculator"]
+    },
+    {
+        "tag": "open_netflix",
+        "patterns": ["open netflix"],
+        "responses": ["open:netflix"]
+    },
+    {
+        "tag": "open_hotstar",
+        "patterns": ["open disney", "open disney hotstar", "open disney hotstar"],
+        "responses": ["open:hotstar"]
+    },
+    {
+        "tag": "open_discord",
+        "patterns": ["open discord"],
+        "responses": ["open:discord"]
+    },
+    {
+        "tag": "open_youtube",
+        "patterns": ["open youtube"],
+        "responses": ["open:youtube"]
+    },
+
+
+    
+    
+    {
+        "tag": "greeting",
+        "patterns": ["Hey", "Hello", "What's up?", "How is it going?", "Hi"],
+        "responses": ["Hello Harlan!", "Hello, what can I do for you?", "Hi, need something?", "Hi, nice to hear you", "Hi"]
+    },
+    {
+        "tag": "ask_you",
+        "patterns": ["Who are you?", "siapa kamu?"],
+        "responses": ["I am stela, AI made for help you to manage computer"]
+    },
+    {
+        "tag": "ask_owner",
+        "patterns": ["Who's your owner?"],
+        "responses": ["My owner is harlan"]
+    }
+]}
